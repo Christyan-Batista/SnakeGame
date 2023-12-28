@@ -14,9 +14,7 @@ class Database:
                                     (nome, pontuacao)
                                     VALUES
                                     ('{name}', '{points}')""")
-            print('aoba')
         except:
-            print('erro')
             pass
         finally:
             self.connect.commit()

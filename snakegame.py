@@ -59,6 +59,7 @@ class SnakeGame:
                     self.current_screen = 2
             elif self.current_screen == 2:
                 self.gameover_screen()
+                self.points = 0
             elif self.current_screen == 3:
                 self.recordsreen()
 
